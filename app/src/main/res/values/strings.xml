@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">CalGeometricaApp</string>
+    <string name="titulo">Elija la figura geométrica que desea calcular:</string>
+    <string name="cuadro">Cuadrado</string>
+    <string name="circulo">Circulo</string>
+    <string name="triangulo">Triángulo</string>
+    <string name="cubo">Cubo</string>
+    <string name="MCuadro">Ingrese datos:</string>
+    <string name="a">a</string>
+    <string name="area">Área:</string>
+    <string name="perimetro">Perímetro</string>
+    <string name="radio">Ingrese r:</string>
+    <string name="r">r</string>
+    <string name="Mtriandulo">Ingrese a,b,c,h:</string>
+    <string name="b">b</string>
+    <string name="c">c</string>
+    <string name="h">h</string>
+    <string name="volumen">Volúmen:</string>
+</resources>

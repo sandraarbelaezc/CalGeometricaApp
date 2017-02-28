@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.calgeometricaapp.MainActivity">
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/rgroup">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/titulo"
+            android:textSize="15dp"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cuadro"
+            android:textSize="14dp"
+            android:id="@+id/rbCuadro"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/circulo"
+            android:textSize="14dp"
+            android:id="@+id/rbCirculo"/>
+
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/triangulo"
+            android:textSize="14dp"
+            android:id="@+id/rbTriangulo"/>
+        <RadioButton
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/cubo"
+            android:textSize="14dp"
+            android:id="@+id/rbCubo"/>
+
+    </RadioGroup>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/cuadro"
+            android:id="@+id/imagen"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calcular"
+            android:textSize="10dp"
+            android:layout_gravity="center"
+            android:id="@+id/bCalcular"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView style="@style/TextViewStyle"
+            android:text="@string/MCuadro" />
+
+        <EditText style="@style/EditTextStyle"
+            android:hint="@string/a"
+            android:id="@+id/ea"/>
+
+        <EditText style="@style/EditTextStyle"
+            android:hint="@string/b"
+            android:id="@+id/eb"/>
+
+        <EditText style="@style/EditTextStyle"
+            android:hint="@string/c"
+            android:id="@+id/ec"/>
+
+        <EditText style="@style/EditTextStyle"
+            android:hint="@string/h"
+            android:id="@+id/eh"/>
+
+        <EditText style="@style/EditTextStyle"
+            android:hint="@string/r"
+            android:id="@+id/er"/>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView style="@style/TextViewStyle"
+            android:text="@string/area" />
+
+        <EditText style="@style/EditTextStyle"
+            android:id="@+id/eArea" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView style="@style/TextViewStyle"
+            android:text="@string/perimetro" />
+
+        <EditText style="@style/EditTextStyle"
+            android:id="@+id/ePerimetro"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView style="@style/TextViewStyle"
+            android:text="@string/volumen" />
+
+        <EditText style="@style/EditTextStyle"
+            android:id="@+id/eVolumen"/>
+
+    </LinearLayout>
+
+</LinearLayout>
